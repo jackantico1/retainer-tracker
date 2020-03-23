@@ -15,6 +15,9 @@
 		59AB36C82427EA2F00518E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AB36C62427EA2F00518E9D /* LaunchScreen.storyboard */; };
 		59AB36D32427EA3000518E9D /* retainer_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36D22427EA3000518E9D /* retainer_trackerTests.swift */; };
 		59AB36DE2427EA3000518E9D /* retainer_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36DD2427EA3000518E9D /* retainer_trackerUITests.swift */; };
+		59AB36EC2427EAD100518E9D /* RecordSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */; };
+		59AB36EE2429014B00518E9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59AB36ED2429014B00518E9D /* GoogleService-Info.plist */; };
+		BFF8C41E2CE2084873CAE6C0 /* libPods-retainer-tracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8856B9FBC24A64EC0F56A59 /* libPods-retainer-tracker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1436C8B9467055600CD22746 /* Pods-retainer-tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retainer-tracker.debug.xcconfig"; path = "Target Support Files/Pods-retainer-tracker/Pods-retainer-tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		59AB36B82427EA2C00518E9D /* retainer-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retainer-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AB36BB2427EA2C00518E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59AB36BD2427EA2C00518E9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		59AB36D92427EA3000518E9D /* retainer-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retainer-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AB36DD2427EA3000518E9D /* retainer_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retainer_trackerUITests.swift; sourceTree = "<group>"; };
 		59AB36DF2427EA3000518E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSessionViewController.swift; sourceTree = "<group>"; };
+		59AB36ED2429014B00518E9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8856B9FBC24A64EC0F56A59 /* libPods-retainer-tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-retainer-tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89D89ADCC9C4A6FDDFAFFFA /* Pods-retainer-tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retainer-tracker.release.xcconfig"; path = "Target Support Files/Pods-retainer-tracker/Pods-retainer-tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF8C41E2CE2084873CAE6C0 /* libPods-retainer-tracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,8 @@
 				59AB36D12427EA3000518E9D /* retainer-trackerTests */,
 				59AB36DC2427EA3000518E9D /* retainer-trackerUITests */,
 				59AB36B92427EA2C00518E9D /* Products */,
+				810D447DF81790CF0A07125F /* Pods */,
+				F98D8EE691F430BE6D1DC430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +113,11 @@
 				59AB36BB2427EA2C00518E9D /* AppDelegate.swift */,
 				59AB36BD2427EA2C00518E9D /* SceneDelegate.swift */,
 				59AB36BF2427EA2C00518E9D /* ViewController.swift */,
+				59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */,
 				59AB36C12427EA2C00518E9D /* Main.storyboard */,
 				59AB36C42427EA2F00518E9D /* Assets.xcassets */,
 				59AB36C62427EA2F00518E9D /* LaunchScreen.storyboard */,
+				59AB36ED2429014B00518E9D /* GoogleService-Info.plist */,
 				59AB36C92427EA2F00518E9D /* Info.plist */,
 			);
 			path = "retainer-tracker";
@@ -128,6 +141,23 @@
 			path = "retainer-trackerUITests";
 			sourceTree = "<group>";
 		};
+		810D447DF81790CF0A07125F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1436C8B9467055600CD22746 /* Pods-retainer-tracker.debug.xcconfig */,
+				E89D89ADCC9C4A6FDDFAFFFA /* Pods-retainer-tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F98D8EE691F430BE6D1DC430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8856B9FBC24A64EC0F56A59 /* libPods-retainer-tracker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59AB36E22427EA3000518E9D /* Build configuration list for PBXNativeTarget "retainer-tracker" */;
 			buildPhases = (
+				BF7756D10D8730377A23AC1A /* [CP] Check Pods Manifest.lock */,
 				59AB36B42427EA2C00518E9D /* Sources */,
 				59AB36B52427EA2C00518E9D /* Frameworks */,
 				59AB36B62427EA2C00518E9D /* Resources */,
@@ -233,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59AB36C82427EA2F00518E9D /* LaunchScreen.storyboard in Resources */,
+				59AB36EE2429014B00518E9D /* GoogleService-Info.plist in Resources */,
 				59AB36C52427EA2F00518E9D /* Assets.xcassets in Resources */,
 				59AB36C32427EA2C00518E9D /* Main.storyboard in Resources */,
 			);
@@ -254,6 +286,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF7756D10D8730377A23AC1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retainer-tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59AB36B42427EA2C00518E9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +318,7 @@
 			files = (
 				59AB36C02427EA2C00518E9D /* ViewController.swift in Sources */,
 				59AB36BC2427EA2C00518E9D /* AppDelegate.swift in Sources */,
+				59AB36EC2427EAD100518E9D /* RecordSessionViewController.swift in Sources */,
 				59AB36BE2427EA2C00518E9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +490,7 @@
 		};
 		59AB36E32427EA3000518E9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1436C8B9467055600CD22746 /* Pods-retainer-tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +509,7 @@
 		};
 		59AB36E42427EA3000518E9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D89ADCC9C4A6FDDFAFFFA /* Pods-retainer-tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

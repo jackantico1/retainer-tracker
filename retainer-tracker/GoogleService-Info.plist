@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>868826290481-3pfk7gsrndvvislgpb9o2en7equdlcln.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.868826290481-3pfk7gsrndvvislgpb9o2en7equdlcln</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBH_HAYZ_brHaajkqAnkWgrSPckc_8iVDw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>868826290481</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jackantico.retainer-tracker</string>
+	<key>PROJECT_ID</key>
+	<string>retainer-tracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>retainer-tracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:868826290481:ios:6f850628be6c97a8e7f810</string>
+	<key>DATABASE_URL</key>
+	<string>https://retainer-tracker.firebaseio.com</string>
+</dict>
+</plist>
