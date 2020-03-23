@@ -17,6 +17,7 @@
 		59AB36DE2427EA3000518E9D /* retainer_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36DD2427EA3000518E9D /* retainer_trackerUITests.swift */; };
 		59AB36EC2427EAD100518E9D /* RecordSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */; };
 		59AB36EE2429014B00518E9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59AB36ED2429014B00518E9D /* GoogleService-Info.plist */; };
+		59AB36F0242937B200518E9D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB36EF242937B200518E9D /* StatsViewController.swift */; };
 		BFF8C41E2CE2084873CAE6C0 /* libPods-retainer-tracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8856B9FBC24A64EC0F56A59 /* libPods-retainer-tracker.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		59AB36DF2427EA3000518E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSessionViewController.swift; sourceTree = "<group>"; };
 		59AB36ED2429014B00518E9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59AB36EF242937B200518E9D /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		D8856B9FBC24A64EC0F56A59 /* libPods-retainer-tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-retainer-tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89D89ADCC9C4A6FDDFAFFFA /* Pods-retainer-tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retainer-tracker.release.xcconfig"; path = "Target Support Files/Pods-retainer-tracker/Pods-retainer-tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				59AB36BD2427EA2C00518E9D /* SceneDelegate.swift */,
 				59AB36BF2427EA2C00518E9D /* ViewController.swift */,
 				59AB36EB2427EAD100518E9D /* RecordSessionViewController.swift */,
+				59AB36EF242937B200518E9D /* StatsViewController.swift */,
 				59AB36C12427EA2C00518E9D /* Main.storyboard */,
 				59AB36C42427EA2F00518E9D /* Assets.xcassets */,
 				59AB36C62427EA2F00518E9D /* LaunchScreen.storyboard */,
@@ -319,6 +322,7 @@
 				59AB36C02427EA2C00518E9D /* ViewController.swift in Sources */,
 				59AB36BC2427EA2C00518E9D /* AppDelegate.swift in Sources */,
 				59AB36EC2427EAD100518E9D /* RecordSessionViewController.swift in Sources */,
+				59AB36F0242937B200518E9D /* StatsViewController.swift in Sources */,
 				59AB36BE2427EA2C00518E9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
