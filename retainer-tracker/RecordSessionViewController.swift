@@ -35,21 +35,25 @@ class RecordSessionViewController: UIViewController {
             return
         }
         
-        let hoursWorn = Int(hoursWornStr)
+        let defaults = UserDefaults.standard
+        let numOfPosts = defaults.integer(forKey: "numOfSessions")
+        let uid = UIDevice.current.identifierForVendor!.uuidString
+        let date = "\(Date())".dropLast(15)
+        let hoursWorn = Int(hoursWornStr) ?? 0
         let takenOut = wasTakenOut.selectedSegmentIndex == 0 ? false : true
         let levelOfPain = painLevel.selectedSegmentIndex
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        ref.child("sessions/\(uid)/post\(numOfPosts)").setValue(["date": date, "hoursWorn": hoursWorn, "takenOut": takenOut, "levelOfPain": levelOfPain])
         
-        
-        
+        defaults.set(numOfPosts + 1, forKey: "numOfPosts")
         performSegue(withIdentifier: "segueFromRecordSessionToHome", sender: self)
-        
     }
-    
 
 }
 
 extension String {
     var isInt: Bool {
-        return Int(self) != nil
+        return Int(self) == nil
     }
 }

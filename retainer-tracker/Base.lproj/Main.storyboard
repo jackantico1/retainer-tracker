@@ -61,7 +61,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be8-P6-Mp9">
                                 <rect key="frame" x="20" y="778" width="374" height="30"/>
-                                <state key="normal" title="Record Session"/>
+                                <state key="normal" title="Record Session">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="recordSessionPressed:" destination="wG1-MS-zws" eventType="touchUpInside" id="Pb0-Be-RsJ"/>
                                 </connections>
@@ -86,8 +88,8 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d8R-QK-Nro">
                                 <rect key="frame" x="20" y="196" width="374" height="32"/>
                                 <segments>
-                                    <segment title="Yes"/>
                                     <segment title="No"/>
+                                    <segment title="Yes"/>
                                 </segments>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What was your pain level?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoh-rM-X3w">

@@ -8,6 +8,10 @@
 
 import UIKit
 
+struct defaultsKeys {
+    static let numOfSessions = 0
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
