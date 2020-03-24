@@ -15,14 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retainer Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psk-h0-8bT">
-                                <rect key="frame" x="20" y="0.0" width="374" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMQ-Gl-bFZ">
-                                <rect key="frame" x="20" y="780" width="374" height="36"/>
+                                <rect key="frame" x="20" y="764" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Record Session">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -32,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3u-eU-ztB">
-                                <rect key="frame" x="20" y="736" width="374" height="36"/>
+                                <rect key="frame" x="20" y="712" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="See Stats">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -41,18 +35,24 @@
                                     <segue destination="1h5-PF-xK1" kind="presentation" id="avC-lu-3Lw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retainer Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psk-h0-8bT">
+                                <rect key="frame" x="20" y="20" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="8" id="1lt-hb-ykr"/>
-                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="top" secondItem="h3u-eU-ztB" secondAttribute="bottom" constant="8" id="2l4-Mv-w6B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EMQ-Gl-bFZ" secondAttribute="trailing" constant="20" id="4zL-ci-IKD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h3u-eU-ztB" secondAttribute="trailing" constant="20" id="7kP-yp-3q3"/>
-                            <constraint firstItem="psk-h0-8bT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zbk-es-3I8"/>
-                            <constraint firstItem="h3u-eU-ztB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a1R-DU-xyK"/>
-                            <constraint firstItem="psk-h0-8bT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="boO-0c-bHu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="psk-h0-8bT" secondAttribute="trailing" constant="20" id="iqe-di-rvU"/>
-                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pIh-7C-uwR"/>
+                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5Tm-92-lE9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EMQ-Gl-bFZ" secondAttribute="trailing" constant="20" id="6SB-E8-f0R"/>
+                            <constraint firstItem="psk-h0-8bT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="AjT-yS-Sy6"/>
+                            <constraint firstItem="h3u-eU-ztB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HQU-nP-gk9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h3u-eU-ztB" secondAttribute="trailing" constant="20" id="Uoy-al-DIN"/>
+                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="top" secondItem="h3u-eU-ztB" secondAttribute="bottom" constant="16" id="WVB-3i-abe"/>
+                            <constraint firstItem="psk-h0-8bT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gBQ-pG-fVz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="psk-h0-8bT" secondAttribute="trailing" constant="20" id="gIs-HY-9T0"/>
+                            <constraint firstItem="EMQ-Gl-bFZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-8" id="xeR-mm-fJC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -75,16 +75,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be8-P6-Mp9">
-                                <rect key="frame" x="20" y="780" width="374" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Record Session">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="recordSessionPressed:" destination="wG1-MS-zws" eventType="touchUpInside" id="Pb0-Be-RsJ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many hours did you wear it?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxw-Zn-8HI">
                                 <rect key="frame" x="20" y="80" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -124,15 +114,39 @@
                                     <segment title="Severe"/>
                                 </segments>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGi-8o-yXc">
+                                <rect key="frame" x="20" y="764" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordSessionPressed:" destination="wG1-MS-zws" eventType="touchUpInside" id="WHe-r4-4mx"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="FZp-73-hJq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be8-P6-Mp9">
+                                <rect key="frame" x="20" y="712" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Record Session">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordSessionPressed:" destination="wG1-MS-zws" eventType="touchUpInside" id="Pb0-Be-RsJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="pv1-la-7zQ" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="0ZM-VO-eGh"/>
                             <constraint firstItem="FVg-iZ-UlG" firstAttribute="trailing" secondItem="Zoh-rM-X3w" secondAttribute="trailing" constant="20" id="27z-sg-77b"/>
                             <constraint firstItem="Zoh-rM-X3w" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="6qk-hU-cgD"/>
+                            <constraint firstItem="kGi-8o-yXc" firstAttribute="top" secondItem="be8-P6-Mp9" secondAttribute="bottom" constant="16" id="7Fd-mZ-kCi"/>
                             <constraint firstItem="cIh-yI-wSz" firstAttribute="top" secondItem="FVg-iZ-UlG" secondAttribute="top" constant="20" id="87u-W7-oGg"/>
+                            <constraint firstItem="kGi-8o-yXc" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="Br6-Zc-rud"/>
                             <constraint firstItem="d8R-QK-Nro" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="DgV-47-JVj"/>
                             <constraint firstItem="d8R-QK-Nro" firstAttribute="top" secondItem="pv1-la-7zQ" secondAttribute="bottom" constant="8" id="Fdb-qi-LbR"/>
+                            <constraint firstItem="kGi-8o-yXc" firstAttribute="bottom" secondItem="FVg-iZ-UlG" secondAttribute="bottom" constant="-8" id="KK4-xV-jSI"/>
                             <constraint firstItem="FVg-iZ-UlG" firstAttribute="trailing" secondItem="be8-P6-Mp9" secondAttribute="trailing" constant="20" id="M4Y-Lw-WDr"/>
                             <constraint firstItem="cIh-yI-wSz" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="NUj-pv-WRG"/>
                             <constraint firstItem="XNG-IQ-4Mp" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="O7w-UW-9dh"/>
@@ -147,9 +161,9 @@
                             <constraint firstItem="qxw-Zn-8HI" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="qk7-p9-l1O"/>
                             <constraint firstItem="FVg-iZ-UlG" firstAttribute="trailing" secondItem="pv1-la-7zQ" secondAttribute="trailing" constant="20" id="r0y-kB-Ujn"/>
                             <constraint firstItem="uYR-Yc-Yiu" firstAttribute="leading" secondItem="FVg-iZ-UlG" secondAttribute="leading" constant="20" id="rnu-lE-Slm"/>
+                            <constraint firstItem="FVg-iZ-UlG" firstAttribute="trailing" secondItem="kGi-8o-yXc" secondAttribute="trailing" constant="20" id="siB-2g-xZB"/>
                             <constraint firstItem="pv1-la-7zQ" firstAttribute="top" secondItem="uYR-Yc-Yiu" secondAttribute="bottom" constant="24" id="tEv-p9-DJb"/>
                             <constraint firstItem="FVg-iZ-UlG" firstAttribute="trailing" secondItem="XNG-IQ-4Mp" secondAttribute="trailing" constant="20" id="tgf-1s-gkP"/>
-                            <constraint firstItem="be8-P6-Mp9" firstAttribute="bottom" secondItem="FVg-iZ-UlG" secondAttribute="bottom" constant="8" id="vCf-XJ-PLx"/>
                             <constraint firstItem="Zoh-rM-X3w" firstAttribute="top" secondItem="d8R-QK-Nro" secondAttribute="bottom" constant="24" id="vKr-rx-cjF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FVg-iZ-UlG"/>
@@ -163,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmr-nM-SzS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-612" y="868"/>
+            <point key="canvasLocation" x="-813" y="868"/>
         </scene>
         <!--Stats View Controller-->
         <scene sceneID="BLc-Iy-0MK">
@@ -189,8 +203,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="        Total Number of Sessions: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byF-HX-Qcb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Number of Sessions: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byF-HX-Qcb">
                                 <rect key="frame" x="20" y="80" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Session Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJC-4d-cer">
+                                <rect key="frame" x="20" y="125" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -199,11 +219,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="byF-HX-Qcb" firstAttribute="top" secondItem="Gjq-4I-IaS" secondAttribute="bottom" constant="24" id="5Yw-Fl-eXj"/>
+                            <constraint firstItem="OJC-4d-cer" firstAttribute="top" secondItem="byF-HX-Qcb" secondAttribute="bottom" constant="24" id="JaR-kH-7iD"/>
+                            <constraint firstItem="AES-9R-jLL" firstAttribute="trailing" secondItem="OJC-4d-cer" secondAttribute="trailing" constant="20" id="Pvg-I4-UKq"/>
                             <constraint firstItem="AES-9R-jLL" firstAttribute="trailing" secondItem="Gjq-4I-IaS" secondAttribute="trailing" constant="20" id="Qfh-MY-l4H"/>
                             <constraint firstItem="Gjq-4I-IaS" firstAttribute="leading" secondItem="AES-9R-jLL" secondAttribute="leading" constant="20" id="S0z-vs-4do"/>
                             <constraint firstItem="byF-HX-Qcb" firstAttribute="leading" secondItem="AES-9R-jLL" secondAttribute="leading" constant="20" id="WAg-Uc-qG5"/>
                             <constraint firstItem="AES-9R-jLL" firstAttribute="trailing" secondItem="byF-HX-Qcb" secondAttribute="trailing" constant="20" id="feZ-DZ-Qvw"/>
                             <constraint firstItem="AES-9R-jLL" firstAttribute="bottom" secondItem="cyO-62-LYg" secondAttribute="bottom" constant="8" id="pS1-Yj-KAv"/>
+                            <constraint firstItem="OJC-4d-cer" firstAttribute="leading" secondItem="AES-9R-jLL" secondAttribute="leading" constant="20" id="q5f-rd-2KG"/>
                             <constraint firstItem="AES-9R-jLL" firstAttribute="trailing" secondItem="cyO-62-LYg" secondAttribute="trailing" constant="20" id="s4e-h8-3y9"/>
                             <constraint firstItem="cyO-62-LYg" firstAttribute="leading" secondItem="AES-9R-jLL" secondAttribute="leading" constant="20" id="u0i-uN-tZH"/>
                             <constraint firstItem="Gjq-4I-IaS" firstAttribute="top" secondItem="AES-9R-jLL" secondAttribute="top" constant="20" id="yEB-o8-I1p"/>
@@ -211,15 +234,16 @@
                         <viewLayoutGuide key="safeArea" id="AES-9R-jLL"/>
                     </view>
                     <connections>
+                        <outlet property="lastSessionDate" destination="OJC-4d-cer" id="h5W-gl-wEx"/>
                         <outlet property="totalNumOfSessions" destination="byF-HX-Qcb" id="bew-hm-jB1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ErB-gb-6cn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1086.9565217391305" y="867.85714285714278"/>
+            <point key="canvasLocation" x="1088" y="868"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3Aq-wD-goF"/>
+        <segue reference="FZp-73-hJq"/>
     </inferredMetricsTieBreakers>
 </document>
