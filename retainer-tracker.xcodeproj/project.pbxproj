@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1436C8B9467055600CD22746 /* Pods-retainer-tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retainer-tracker.debug.xcconfig"; path = "Target Support Files/Pods-retainer-tracker/Pods-retainer-tracker.debug.xcconfig"; sourceTree = "<group>"; };
-		59AB36B82427EA2C00518E9D /* retainer-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retainer-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AB36B82427EA2C00518E9D /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AB36BB2427EA2C00518E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59AB36BD2427EA2C00518E9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		59AB36BF2427EA2C00518E9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		59AB36B92427EA2C00518E9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59AB36B82427EA2C00518E9D /* retainer-tracker.app */,
+				59AB36B82427EA2C00518E9D /* .app */,
 				59AB36CE2427EA3000518E9D /* retainer-trackerTests.xctest */,
 				59AB36D92427EA3000518E9D /* retainer-trackerUITests.xctest */,
 			);
@@ -179,7 +179,7 @@
 			);
 			name = "retainer-tracker";
 			productName = "retainer-tracker";
-			productReference = 59AB36B82427EA2C00518E9D /* retainer-tracker.app */;
+			productReference = 59AB36B82427EA2C00518E9D /* .app */;
 			productType = "com.apple.product-type.application";
 		};
 		59AB36CD2427EA3000518E9D /* retainer-trackerTests */ = {
@@ -505,7 +505,6 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jackantico.retainer-tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -524,7 +523,6 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jackantico.retainer-tracker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
