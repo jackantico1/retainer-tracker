@@ -18,6 +18,16 @@ class ViewController: UIViewController {
 
 extension UIViewController {
     
+    func getDataSnapshot(path: String, completion: @escaping (DataSnapshot) -> ()) {
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        ref.child("\(path)").observeSingleEvent(of: .value, with: { (snapshot) in
+            completion(snapshot)
+        }) { (error) in
+            self.showErrorMessage(messageTitle: "Error:", messageText: error.localizedDescription)
+        }
+    }
+    
     func getNumOfSessions(completion: @escaping (Int) -> ()) {
         var ref: DatabaseReference!
         ref = Database.database().reference()

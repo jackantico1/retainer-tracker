@@ -22,17 +22,18 @@ class StatsViewController: UIViewController {
         setLastSessionDate()
     }
     
+    func setHoursWorn() {
+        
+    }
+    
     func setLastSessionDate() {
-        var ref: DatabaseReference!
-        ref = Database.database().reference()
         let uid = UIDevice.current.identifierForVendor!.uuidString
-        let numOfPosts = UserDefaults.standard.integer(forKey: "numOfSessions")
-        ref.child("sessions/\(uid)/post\(numOfPosts)").observeSingleEvent(of: .value, with: { (snapshot) in
-            let value = snapshot.value as? NSDictionary
-            let lastDate = value?["date"] as? String ?? "No Data"
-            self.lastSessionDate.text = "Last Session Date: \(lastDate)"
-        }) { (error) in
-            self.showErrorMessage(messageTitle: "Error:", messageText: error.localizedDescription)
+        getNumOfSessions { (numOfSessions) in
+            self.getDataSnapshot(path: "sessions/\(uid)/post\(numOfSessions - 1)") { (snapshot) in
+                let value = snapshot.value as? NSDictionary
+                let lastDate = value?["date"] as? String ?? "No Data"
+                self.lastSessionDate.text = "Last Session Date: \(lastDate)"
+            }
         }
     }
     
