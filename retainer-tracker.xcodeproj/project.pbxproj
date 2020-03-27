@@ -120,8 +120,8 @@
 				59AB36C12427EA2C00518E9D /* Main.storyboard */,
 				59AB36C42427EA2F00518E9D /* Assets.xcassets */,
 				59AB36C62427EA2F00518E9D /* LaunchScreen.storyboard */,
-				59AB36C92427EA2F00518E9D /* Info.plist */,
 				59C9C824242AE4E1007386A2 /* GoogleService-Info.plist */,
+				59AB36C92427EA2F00518E9D /* Info.plist */,
 			);
 			path = "retainer-tracker";
 			sourceTree = "<group>";
@@ -381,6 +381,7 @@
 		59AB36E02427EA3000518E9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -441,6 +442,7 @@
 		59AB36E12427EA3000518E9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -496,9 +498,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1436C8B9467055600CD22746 /* Pods-retainer-tracker.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = D95BFFAXB9;
 				INFOPLIST_FILE = "retainer-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,9 +519,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E89D89ADCC9C4A6FDDFAFFFA /* Pods-retainer-tracker.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = D95BFFAXB9;
 				INFOPLIST_FILE = "retainer-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
